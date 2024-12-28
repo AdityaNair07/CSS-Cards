@@ -29,7 +29,7 @@ Welcome to **CSS Styled Cards Collection**, a repository featuring a diverse ran
 
 ## 🔍 Demo
 
-Check out the live demo of all the cards: [Live Demo](https://your-demo-link.com)
+Check out the live demo of all the cards: [Live Demo](https://adityanair07.github.io/CSS-Cards/)
 
 ---
 
@@ -38,12 +38,12 @@ Check out the live demo of all the cards: [Live Demo](https://your-demo-link.com
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/css-styled-cards.git
+   git clone https://github.com/AdityaNair07/CSS-Cards.git
 
 2. Navigate to the directory:
 
    ```bash
-   cd css-styled-cards
+   cd CSS-Cards
 
 3. Open index.html to view the cards collection
 
@@ -89,7 +89,7 @@ Contributions are welcomed from the community! Follow these steps to contribute:
    Use the following command to clone your forked repository:
 
    ```bash
-   git clone https://github.com/your-username/repo-name.git
+   git clone https://github.com/your-username/CSS-Cards.git
 
 3. **Create a new branch**  
 
@@ -124,6 +124,6 @@ Contributions are welcomed from the community! Follow these steps to contribute:
 
 ## 🫡 Conclusion
 
-Thank you for taking the time to read this guide. I hope you find this collection useful for your projects and may learn something new from this. Kindly connect with me to provide feedbacks or new ideas. 
+Thank you for taking the time to read this guide. I hope you find this collection useful for your projects and may learn something new from this. Kindly connect with me to provide feedbacks or new ideas.
 **Thank you**
 **Happy Learning 😁**
