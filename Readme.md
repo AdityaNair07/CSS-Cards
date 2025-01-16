@@ -10,7 +10,6 @@ Welcome to **CSS Styled Cards Collection**, a repository featuring a diverse ran
 - [Demo](#-demo)
 - [Installation](#-installation)
 - [Usage](#-usage)
-<!-- - [Card Previews](#-card-previews) -->
 - [Technologies Used](#-technologies-used)
 - [Contributing](#-contributing)
 - [Conclusion](#-conclusion)
@@ -75,6 +74,7 @@ Discover all designs in the [Preview Gallery](https://your-demo-link.com).
 
 - **HTML5**
 - **CSS3** (Flexbox, Grid, Transitions, Animations, etc.)
+- **JavaScript** (for interactive elements)
 
 ---
 

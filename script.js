@@ -60,3 +60,24 @@ card14.addEventListener("click", (e) => {
 card14.addEventListener("mouseleave", (e) => {
   cursor.style.transition = "none";
 });
+
+const card16 = document.querySelector(".card16");
+
+card16.addEventListener("mousemove", (e) => {
+  const rect = card16.getBoundingClientRect();
+
+  let posX = e.clientX - rect.left;
+  let posY = e.clientY - rect.top;
+
+  console.log(posX, posY, "--------");
+
+  if (posX < 125) {
+    card16.style.setProperty("--rotateX", -posX / 10 + "deg");
+  } else if (posY < 175) {
+    card16.style.setProperty("--rotateY", -posY / 10 + "deg");
+  } else if (posX > 125) {
+    card16.style.setProperty("--rotateX", posX / 10 + "deg");
+  } else if (posY > 175) {
+    card16.style.setProperty("--rotateY", posY / 10 + "deg");
+  }
+});
