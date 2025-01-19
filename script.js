@@ -69,15 +69,14 @@ card16.addEventListener("mousemove", (e) => {
   let posX = e.clientX - rect.left;
   let posY = e.clientY - rect.top;
 
-  console.log(posX, posY, "--------");
+  const rotationX = ((posY - rect.height / 2) / rect.height) * 30;
+  const rotationY = ((posX - rect.width / 2) / rect.width) * 30;
 
-  if (posX < 125) {
-    card16.style.setProperty("--rotateX", -posX / 10 + "deg");
-  } else if (posY < 175) {
-    card16.style.setProperty("--rotateY", -posY / 10 + "deg");
-  } else if (posX > 125) {
-    card16.style.setProperty("--rotateX", posX / 10 + "deg");
-  } else if (posY > 175) {
-    card16.style.setProperty("--rotateY", posY / 10 + "deg");
-  }
+  card16.style.setProperty("--rotateX", rotationX + "deg");
+  card16.style.setProperty("--rotateY", rotationY + "deg");
+});
+
+card16.addEventListener("mouseleave", (e) => {
+  card16.style.setProperty("--rotateX", "0deg");
+  card16.style.setProperty("--rotateY", "0deg");
 });
