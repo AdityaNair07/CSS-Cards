@@ -1229,27 +1229,61 @@ ion-icon {
   border: 2px solid white;
   border-radius: 5px;
   overflow: hidden;
-  transition: 300ms;
-  cursor: pointer;
-  columns: 1fr 2fr 1fr;
-  column-count: 3;
 }
 
 .card17_title1 {
   background-color: crimson;
-  width: 100%;
+  display: flex;
+  cursor: pointer;
+  flex-grow: 1;
+  flex-shrink: 2;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.5rem;
+  color: white;
+  writing-mode: vertical-rl;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .card17_title2 {
-  width: 100%;
+  display: flex;
+  column-span: 1;
   background-color: #008cff;
+  cursor: pointer;
+  flex-grow: 1;
+  flex-shrink: 2;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.5rem;
+  color: white;
+  writing-mode: vertical-rl;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .card17_title3 {
-  width: 100%;
+  display: flex;
+  column-span: 1;
   background-color: #2ee090;
+  cursor: pointer;
+  flex-grow: 1;
+  flex-shrink: 2;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.5rem;
+  color: white;
+  writing-mode: vertical-rl;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
-.card17_title4 {
-  width: 100%;
-  background-color: #da498d;
+
+.card17_title1:hover {
+  flex-grow: 3;
+}
+.card17_title2:hover {
+  flex-grow: 3;
+}
+.card17_title3:hover {
+  flex-grow: 3;
 }
 
 .card18 {
