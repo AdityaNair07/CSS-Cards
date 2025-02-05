@@ -80,3 +80,11 @@ card16.addEventListener("mouseleave", (e) => {
   card16.style.setProperty("--rotateX", "0deg");
   card16.style.setProperty("--rotateY", "0deg");
 });
+
+const card19 = document.querySelector(".card19");
+
+const rect = card19.getBoundingClientRect();
+
+console.log("====================================");
+console.log(rect);
+console.log("====================================");
